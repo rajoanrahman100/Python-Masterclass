@@ -6,7 +6,7 @@ wb = xl.load_workbook("transactions.xlsx") # Load the workbook
 
 sheet = wb["Sheet1"] # Load the sheet in the workbook
 
-cell = sheet["a1"] # Load the cell in the sheet
+# cell = sheet["a1"] # Load the cell in the sheet
 
 # print(cell.value) # Print the value of the cell
 
