@@ -9,10 +9,9 @@ randomNumber = random.randint(1, 100)
 while True:
     try:
         userGuess = int(input("Guess the number between 1 and 100: "))
-
-        if userGuess >randomNumber:
+        if userGuess > randomNumber:
             print("Too High")
-        elif userGuess <randomNumber:
+        elif userGuess < randomNumber:
             print("Too Low")
         else:
             print("Congrates! You get the right number")
