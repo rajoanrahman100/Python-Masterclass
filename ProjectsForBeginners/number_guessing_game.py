@@ -4,7 +4,7 @@ import random
 
 randomNumber = random.randint(1, 100)
 
-print(f"Random number: {randomNumber}")
+# print(f"Random number: {randomNumber}")
 
 while True:
     try:
