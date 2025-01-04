@@ -14,12 +14,13 @@ sheet = wb["Sheet1"] # Load the sheet in the workbook
 
 # print(sheet.max_column) # Print the maximum column in the sheet
 
-for row in range(2 , sheet.max_row+1): # Loop through the rows in the sheet
+for row in range(2 , sheet.max_row+1): # Loop through the rows in the sheet 
     
     cell=sheet.cell(row,3) # Load the cell in the sheet
     corrected_price=cell.value * 0.9
     corrected_price_cell=sheet.cell(row,4) # Load the cell in the sheet
     corrected_price_cell.value=corrected_price # Assign the value to the cell
+    
     
 wb.save("transactions2.xlsx") # Save the workbook
 

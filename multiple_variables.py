@@ -8,6 +8,9 @@ names=['Ihan','Arisha','Raiyan']
 
 x,y,z=names
 
-print(x) # Ihan
+
+
+print(x)# Ihan
 print(y) # Arisha
+
 print(z) # Raiyan
