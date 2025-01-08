@@ -1,14 +1,14 @@
 
-try:
+try: # General exception
     age=int(input("Age: "))
     income=50000
     risk=income/age
-    print(age)
+    print(f"Risk: {risk:.3f}")
     
-except ZeroDivisionError:
+except ZeroDivisionError: # Specific exception
     print("Age cannot be zero")    
 
-except ValueError:
+except ValueError: # Specific exception
     print("Invalid value")
          
     

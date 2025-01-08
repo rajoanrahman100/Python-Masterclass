@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path("Packages")
+path = Path("Packages") 
 print(path.exists()) # True
 
 pathTwo=Path("Test Directory")
