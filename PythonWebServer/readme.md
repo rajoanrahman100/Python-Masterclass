@@ -1,7 +1,7 @@
-## Fast Api Documentation
+# Fast Api Documentation
 
-# Import Fast Api {import fastApi from FastApi}
+### Import Fast Api => import fastApi from FastApi
 
-# instatiate fast api {app=FastApi()}
+## instatiate fast api => app=FastApi()
 
-# run the uviconrn server {uvicon pythonFileName:app}
+## run the uviconrn server => uvicon pythonFileName:app
