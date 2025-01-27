@@ -4,4 +4,4 @@
 
 ### instatiate fast api => app=FastApi()
 
-### run the uviconrn server => uvicon pythonFileName:app
+### run the uviconrn server => uvicorn pythonFileName:app
