@@ -5,4 +5,5 @@ sliceFromTheStart=a[:8] #  By leaving out the start index, the range will start 
 sliceFromTheEnd=a[2:]
 
 print(sliceFromTheEnd)
+print(sliceFromTheStart)
 
